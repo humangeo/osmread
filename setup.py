@@ -2,12 +2,8 @@ from setuptools import setup, find_packages
 import sys
 import os
 
-version = '0.2'
-requirements = ['argparse', 'lxml']
-if sys.version_info > (3,):
-    requirements.append('protobuf==3.0.0b3')
-else:
-    requirements.append('protobuf')
+version = '0.2-xml'
+requirements = ['argparse']
 
 setup(name='osmread',
       version=version,

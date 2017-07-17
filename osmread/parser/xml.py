@@ -1,5 +1,5 @@
 import sys
-from lxml.etree import iterparse
+from xml.etree.ElementTree import iterparse
 from datetime import datetime
 from time import mktime
 
